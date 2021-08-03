@@ -3,6 +3,7 @@ import BG2 from "../../assets/images/15152.jpg";
 import BG3 from "../../assets/images/3400343.jpg";
 import BG4 from "../../assets/images/19366.jpg";
 import BG5 from "../../assets/images/432894.jpg";
+import BG6 from "../../assets/images/47335245.jpg";
 import { RiTimerFlashFill } from "react-icons/ri";
 import { FaCog, FaCrosshairs, FaDiceD20, FaLink, FaWrench } from 'react-icons/fa';
 
@@ -12,12 +13,13 @@ export const Home = () => {
             <div>
                 <div className="h-screen"
                     style={{
-                        background: `url(${BG3}) no-repeat center center fixed`,
+                        background: `url(${BG3}) no-repeat center center`,
                         backgroundSize: 'cover',
-                        boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.5)',
+                        height: "48rem",
+                        boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.267)',
                     }}>
-                    <div className="flex flex-col items-center justify-center pt-96">
-                        <h1 className="text-4xl mx-80 text-center  text-gray-100 font-black tracking-wider leading-9 uppercase  shadow-2xl mt-32">
+                    <div className="flex flex-col items-center justify-center pt-72">
+                        <h1 className="text-4xl mx-80 text-center  text-gray-100 font-black tracking-wider leading-9 uppercase  shadow-2xl">
                             The premier provider of Continuous Learning AI solutions on the Edge for computer vision and streaming data
                         </h1>
                     </div>
@@ -76,40 +78,52 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2">
-                    <div>
-                        <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" />
+                <div className="grid grid-cols-2 "
+                // style={{
+                //     background: `url(${BG6}) no-repeat center center `,
+                //     backgroundSize: 'cover',
+                //     height: '100%'
+                // }}
+                >
+                    <div className="p-32 ">
+                        <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
                     </div>
                     <div className="flex flex-col items-center justify-center space-y-5 px-32">
                         <h1 className="text-2xl text-center uppercase font-black">
-                            Innovative companies have an insatiable need for real world customer insights
+                            Realtime decisions require realtime information at a price that's affordable
                         </h1>
                     </div>
 
                 </div>
 
-                <div className="flex  space-x-3 py-5 bg-white text-dark-primary-800"
+                <div className="flex  space-x-3 py-5 bg-white text-dark-primary-800 "
                     style={{
                         background: `url(${BG4}) no-repeat center center `,
                         backgroundSize: 'cover',
                         height: '100%'
-                    }}>
+                    }}
+                >
 
                     <div className=" flex flex-col justify-center items-center font-medium mx-40 text-2xl space-y-4 my-5">
                         <h1>We combine the best of Artificial Intelligence and Edge Computing to deliver actionable video and image insights to solve real world problems</h1>
-                        <h1>Our innovative video analytics platform serves Smart Cities, Retail Automation, Security and Surveillance for both Government and private enterprises. We are based in Singapore with a research and development center in Bangalore India</h1>
+                        <h1>Our innovative video analytics platform serves Smart Cities, Retail Automation, Security and Surveillance for both Government and private enterprises. We are based in United States with a research and development center in Hyderabad India</h1>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2"
+                // style={{
+                //     background: `url(${BG6}) no-repeat center center `,
+                //     backgroundSize: 'cover',
+                //     height: '100%'
+                // }}
+                >
                     <div className="flex flex-col  justify-center space-y-5 px-32">
                         <h1 className="text-2xl text-center uppercase font-black">
-                            Create the most impactful customer experience with Guise AI near realtime solutions on the edge
+                            Deliver the most impactful customer experience with Guise AI's  realtime solutions on the edge
                         </h1>
                     </div>
-
-                    <div>
-                        <img src={BG2} alt="gGlUMYGEIvjDOOw.jpg" />
+                    <div className="p-32">
+                        <img src={BG2} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
                     </div>
                 </div>
             </div>

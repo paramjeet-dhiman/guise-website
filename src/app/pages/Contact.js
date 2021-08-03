@@ -3,7 +3,7 @@ import BG1 from "../../assets/images/19366.jpg";
 
 export const Contact = () => {
     return (
-        <div className="text-dark-text  h-full" style={{
+        <div className="text-dark-text  h-screen" style={{
             background: `url(${BG1}) no-repeat center center`,
             backgroundSize: 'cover',
         }}>
@@ -13,7 +13,9 @@ export const Contact = () => {
                 </div>
             </div>
 
-            <div className=" px-60 space-x-5  py-10 bg-black">
+            <div className=" mx-48 px-20 space-x-5  py-10 bg-black" style={{
+                boxShadow: `rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px`,
+            }}>
                 <div className="my-5">
                     <h1 className="text-5xl text-center text-gray-500   dark:text-white font-extrabold tracking-tight">Get in Touch</h1>
                     <p className=" text-lg  text-center font-medium text-gray-600 dark:text-gray-400 mt-2">

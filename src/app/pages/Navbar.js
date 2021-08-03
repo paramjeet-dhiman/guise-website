@@ -1,6 +1,27 @@
 import { Link } from 'react-router-dom'
 
+
+const MenuItems = [
+    {
+        label: 'Home',
+        url: "/",
+        active: true,
+    },
+    {
+        label: 'Solutions',
+        url: "/solutions",
+        active: false,
+    },
+    {
+        label: 'Contact',
+        url: "/contact",
+        active: false,
+    },
+
+];
+
 export const Navbar = () => {
+
     return (
         <nav className={`fixed bg-gray-100 w-full shadow-xl z-10`}>
             <div className="mx-auto px-2 sm:px-6 lg:px-8">
@@ -18,9 +39,18 @@ export const Navbar = () => {
                     </Link>
 
                     <div className="flex space-x-4">
-                        <Link to="/" className=" text-black text-base px-3 py-2  hover:text-green-500  font-medium border-b-4  border-transparent hover:border-current cursor-pointer select-none" aria-current="page">Home</Link>
-                        <Link to="/solutions" className="text-black text-base hover:text-green-500 px-3 py-2  font-medium border-b-4  border-transparent hover:border-current cursor-pointer select-none ">Solutions</Link>
-                        <Link to="/contact" className="text-black text-base hover:text-green-500 px-3 py-2  font-medium  border-b-4  border-transparent hover:border-current cursor-pointer select-none">Contact</Link>
+
+                        {
+                            MenuItems.map((item, index) => (
+                                <Link to={item.url} key={index}
+                                    className={` text-black text-base px-3 py-2  hover:text-blue-500  font-medium border-b-4  border-transparent hover:border-current cursor-pointer select-none`}
+                                    aria-current="page"
+                                >
+                                    {item.label}
+                                </Link>
+                            ))
+                        }
+
                     </div>
                 </div>
             </div>
