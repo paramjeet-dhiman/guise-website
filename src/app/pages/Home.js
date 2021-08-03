@@ -3,7 +3,7 @@ import BG2 from "../../assets/images/15152.jpg";
 import BG3 from "../../assets/images/3400343.jpg";
 import BG4 from "../../assets/images/19366.jpg";
 import BG5 from "../../assets/images/432894.jpg";
-import BG6 from "../../assets/images/47335245.jpg";
+// import BG6 from "../../assets/images/47335245.jpg";
 import { RiTimerFlashFill } from "react-icons/ri";
 import { FaCog, FaCrosshairs, FaDiceD20, FaLink, FaWrench } from 'react-icons/fa';
 
