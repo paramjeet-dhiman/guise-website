@@ -3,11 +3,14 @@ import BG2 from "../../assets/images/15152.jpg";
 import BG3 from "../../assets/images/3400343.jpg";
 import BG4 from "../../assets/images/19366.jpg";
 import BG5 from "../../assets/images/432894.jpg";
-// import BG6 from "../../assets/images/47335245.jpg";
 import { RiTimerFlashFill } from "react-icons/ri";
 import { FaCog, FaCrosshairs, FaDiceD20, FaLink, FaWrench } from 'react-icons/fa';
+import { useEffect } from "react";
 
 export const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className='text-dark-text pt-16'>
             <div>
@@ -36,7 +39,7 @@ export const Home = () => {
                         <h1 className="text-3xl font-black uppercase text-center text-gray-500">Guise AI is powered by the most adaptive, accurate and <br /> efficient machine learning models in the industry</h1>
                     </div>
 
-                    <div className="flex items-center justify-center   text-dark-primary-400">
+                    <div className="flex items-center justify-center text-dark-primary-400">
 
                         <div className="space-y-20 relative">
                             <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-28 right-32">Accurate</h3>
@@ -78,13 +81,7 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 "
-                // style={{
-                //     background: `url(${BG6}) no-repeat center center `,
-                //     backgroundSize: 'cover',
-                //     height: '100%'
-                // }}
-                >
+                <div className="grid grid-cols-2">
                     <div className="p-32 ">
                         <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
                     </div>
@@ -93,7 +90,6 @@ export const Home = () => {
                             Realtime decisions require realtime information at a price that's affordable
                         </h1>
                     </div>
-
                 </div>
 
                 <div className="flex  space-x-3 py-5 bg-white text-dark-primary-800 "
@@ -110,14 +106,8 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2"
-                // style={{
-                //     background: `url(${BG6}) no-repeat center center `,
-                //     backgroundSize: 'cover',
-                //     height: '100%'
-                // }}
-                >
-                    <div className="flex flex-col  justify-center space-y-5 px-32">
+                <div className="grid grid-cols-2">
+                    <div className="flex flex-col  justify-center space-y-5 px-36">
                         <h1 className="text-2xl text-center uppercase font-black">
                             Deliver the most impactful customer experience with Guise AI's  realtime solutions on the edge
                         </h1>
