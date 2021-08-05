@@ -11,19 +11,18 @@ const SocialShare = [
 export const AppFooter = () => {
     return (
         <div className="bg-gray-900 text-gray-300 relative bottom-0 w-full sm:text-sm">
-            <div className="flex justify-between items-center mx-20 py-3 text-lg">
+            <div className="flex justify-center  md:justify-between items-center mx-20 py-3 text-lg">
 
-                <div className="flex space-x-5 ">
-                    <button className=" hover:text-blue-500 font-medium">Privacy Policy</button>
-                    {/* <button className=" hover:text-blue-500">Term & Conditions</button> */}
+                {/* <div className=" space-x-5 hidden md:block "> */}
+                {/* <button className=" hover:text-blue-500 font-medium">Privacy Policy</button> */}
+                {/* <button className=" hover:text-blue-500">Term & Conditions</button> */}
+                {/* </div> */}
+
+                <div className="font-medium text-sm sm:text-base flex">
+                    Copyright &copy; 2021 <span className="hidden md:block">, Guise AI All Rights Reserved</span>
                 </div>
 
-                <div className="font-medium">
-
-                    Copyright &copy; 2021, Guise Ai All Rights Reserved
-                </div>
-
-                <div className="">
+                <div className="hidden md:block">
                     <ul className="flex space-x-4">
                         {SocialShare.map((val, i) => (
                             <li key={i} className=" p-2 hover:bg-blue-600  rounded-full transition-all	"><a href={`${val.link}`} target="_blank" rel="noreferrer" >{val.Social}</a></li>

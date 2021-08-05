@@ -1,4 +1,4 @@
-import BG1 from '../../assets/images/13202.jpg'
+import BG1 from '../../assets/svg/signage.png'
 import BG2 from '../../assets/images/8261.jpg'
 import BG3 from '../../assets/images/10477.jpg'
 import { ReactComponent as UndrawListeningSvg } from "../../assets/svg/undraw_Listening.svg";
@@ -25,6 +25,8 @@ export const Solutions = () => {
         <>
             <Parallax bgImage={BG1}
                 strength={-150}
+                className='hidden md:block'
+
                 renderLayer={percentage => (
                     <div>
                         <div
@@ -44,7 +46,7 @@ export const Solutions = () => {
                 )}>
                 <div style={{ height: '100vh' }}>
                     <div style={insideStyles}>
-                        <h1 className="text-4xl uppercase font-black text-white text-center">Digital <br />Signage</h1>
+                        <h1 className=" uppercase font-black text-white text-center text-base sm:text-4xl">Digital <br />Signage</h1>
                     </div>
                 </div>
             </Parallax>
@@ -52,23 +54,24 @@ export const Solutions = () => {
 
             <div className="bg-black py-5 grid grid-cols-2 text-gray-300 px-20 h-96 items-center shadow-2xl  relative">
                 <div>
-                    <h1 className="text-4xl uppercase font-black text-dark-button">Digital Signage</h1>
-                    <div className="space-y-3 mt-5 text-xl font-semibold ml-8">
+                    <h1 className=" uppercase font-black text-dark-button text-base sm:text-4xl">Digital Signage</h1>
+                    <div className="space-y-3 mt-5  font-semibold ml-8 text-sm sm:text-xl">
                         <li className="">People Count</li>
-                        <li className="">Customer Demographics (Age, Gender)</li>
+                        <li className="">Object Detection</li>
                         <li className="">Dwell Time</li>
                         <li className="">Wait Time</li>
                         <li className="">Apparel Detection</li>
                         <li className="">Logo Detection</li>
                     </div>
                 </div>
-                <div>
+                <div className="hidden md:block">
                     <UndrawListeningSvg className="h-72 w-full" />
                 </div>
             </div>
 
             <Parallax bgImage={BG2}
                 strength={-200}
+                className='hidden md:block'
                 renderLayer={percentage => (
                     <div>
                         <div
@@ -88,19 +91,19 @@ export const Solutions = () => {
                 )}>
                 <div style={{ height: '100vh' }}>
                     <div style={insideStyles}>
-                        <h1 className="text-4xl uppercase font-black text-white text-center">Traffic <br /> Management</h1>
+                        <h1 className="text-base sm:text-4xl uppercase font-black text-white text-center">Traffic <br /> Management</h1>
 
                     </div>
                 </div>
             </Parallax>
 
             <div className="bg-black py-5 grid grid-cols-2 text-gray-300 px-20 h-96 items-center shadow-2xl">
-                <div>
+                <div className="hidden md:block">
                     <UndrawVehicleSvg className="h-72 w-full" />
                 </div>
                 <div className="flex flex-col items-end justify-items-end ">
-                    <h1 className="text-4xl uppercase font-black text-dark-button">Traffic Management</h1>
-                    <div className="space-y-3 mt-5 text-xl font-semibold mr-32">
+                    <h1 className=" uppercase font-black text-dark-button text-base sm:text-4xl">Traffic Management</h1>
+                    <div className="space-y-3 mt-5  font-semibold mr-32 text-sm sm:text-xl">
                         <li>Vehicle count</li>
                         <li>Make & model</li>
                         <li>Object Detection (Vehicles)</li>
@@ -110,6 +113,8 @@ export const Solutions = () => {
             </div>
             <Parallax bgImage={BG3}
                 strength={-150}
+                className='hidden md:block'
+
                 renderLayer={percentage => (
                     <div>
                         <div
@@ -129,23 +134,22 @@ export const Solutions = () => {
                 )}>
                 <div style={{ height: '100vh' }}>
                     <div style={insideStyles}>
-                        <h1 className="text-4xl uppercase font-black text-white text-center">Energy <br /> Management</h1>
+                        <h1 className="text-base sm:text-4xl uppercase font-black text-white text-center">Energy <br /> Management</h1>
                     </div>
                 </div>
             </Parallax>
             <div className="bg-black py-5 grid grid-cols-2 text-gray-300 px-20 h-96 items-center shadow-2xl">
                 <div>
-                    <h1 className="text-4xl uppercase font-black text-dark-button">Energy Management</h1>
-                    <div className="space-y-3 mt-5 text-xl font-semibold ml-8">
+                    <h1 className=" uppercase font-black text-dark-button text-base sm:text-4xl">Energy Management</h1>
+                    <div className="space-y-3 mt-5  font-semibold ml-8 text-sm sm:text-xl">
                         <li className="">Smart Grid</li>
-                        <li className="">Upstream Drilling</li>
                         <li className="">Smart Meters</li>
                         <li className="">SCADA</li>
                         <li className="">Grid Optimization</li>
                         <li className="">Anomaly Detection</li>
                     </div>
                 </div>
-                <div>
+                <div className="hidden md:block">
                     <UndrawEnergySvg className="h-72 w-full" />
                 </div>
             </div>

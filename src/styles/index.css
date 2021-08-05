@@ -20,7 +20,8 @@ body,
   height: 100%;
   margin: 0;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Raleway", sans-serif;
   scroll-behaviour: smooth;
   scrollbar-color: #6600ff #212529ff;
 }

@@ -22,7 +22,7 @@ export const Home = () => {
                         boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.267)',
                     }}>
                     <div className="flex flex-col items-center justify-center pt-72">
-                        <h1 className="text-4xl mx-80 text-center  text-gray-100 font-black tracking-wider leading-9 uppercase  shadow-2xl">
+                        <h1 className="text-lg md:text-4xl md:tracking-wider tracking-normal leading-4  md:leading-9 mx-20 md:mx-80 text-center  text-gray-100 font-black   uppercase  shadow-2xl">
                             The premier provider of Continuous Learning AI solutions on the Edge for computer vision and streaming data
                         </h1>
                     </div>
@@ -36,21 +36,21 @@ export const Home = () => {
                     }}
                 >
                     <div className="flex items-center justify-center mx-20 py-5 text-white">
-                        <h1 className="text-3xl font-black uppercase text-center text-gray-500">Guise AI is powered by the most adaptive, accurate and <br /> efficient machine learning models in the industry</h1>
+                        <h1 className="text-lg md:text-3xl  font-black uppercase text-center text-gray-500">Guise AI is powered by the most adaptive, accurate and <br /> efficient machine learning models in the industry</h1>
                     </div>
 
                     <div className="flex items-center justify-center text-dark-primary-400">
 
                         <div className="space-y-20 relative">
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-28 right-32">Accurate</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-28 right-32 hidden md:block">Accurate</h3>
                             <div className="w-32 h-32   shadow-2xl relative left-16 bg-blue-700  flex justify-center items-center">
                                 <FaCrosshairs className="w-16 h-16 text-white" />
                             </div>
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-64 right-32">Fast</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-64 right-32 hidden md:block">Fast</h3>
                             <div className="w-32 h-32   shadow-2xl relative left-16 bg-blue-700  flex justify-center items-center">
                                 <RiTimerFlashFill className="w-16 h-16 text-white" />
                             </div>
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-3/4 right-32">Scalable</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-3/4 right-32 hidden md:block">Scalable</h3>
                             <div className="w-32 h-32   shadow-2xl relative left-16 bg-blue-700  flex justify-center items-center">
                                 <FaDiceD20 className="w-16 h-16 text-white" />
                             </div>
@@ -62,16 +62,16 @@ export const Home = () => {
                             }}>
                         </div>
                         <div className="space-y-20 relative">
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-28 left-32">Secure</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-28 left-32 hidden md:block">Secure</h3>
                             <div className="w-32 h-32   shadow-2xl relative right-16 bg-blue-700 flex justify-center items-center">
                                 <FaWrench className="w-16 h-16 text-white" />
                             </div>
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-64 left-32">Robust</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-64 left-32 hidden md:block">Robust</h3>
 
                             <div className="w-32 h-32   shadow-2xl relative right-16 bg-blue-700 flex justify-center items-center">
                                 <FaLink className="w-16 h-16 text-white" />
                             </div>
-                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-3/4 left-32">Customizable</h3>
+                            <h3 className="uppercase text-3xl bg-gray-800  shadow-xl text-white w-72 text-center px-5 py-2  font-black absolute top-3/4 left-32 hidden md:block">Customizable</h3>
 
                             <div className="w-32 h-32   shadow-2xl relative right-16 bg-blue-700 flex justify-center items-center">
                                 <FaCog className="w-16 h-16 text-white" />
@@ -82,11 +82,11 @@ export const Home = () => {
                 </div>
 
                 <div className="grid grid-cols-2">
-                    <div className="p-32 ">
+                    <div className="p-32 hidden md:block">
                         <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
                     </div>
-                    <div className="flex flex-col items-center justify-center space-y-5 px-32">
-                        <h1 className="text-2xl text-center uppercase font-black">
+                    <div className="flex flex-col items-center justify-center space-y-5 md:px-32">
+                        <h1 className="text-sm md:text-2xl  text-center uppercase font-black">
                             Realtime decisions require realtime information at a price that's affordable
                         </h1>
                     </div>
@@ -100,19 +100,19 @@ export const Home = () => {
                     }}
                 >
 
-                    <div className=" flex flex-col justify-center items-center font-medium mx-40 text-2xl space-y-4 my-5">
+                    <div className=" flex flex-col justify-center items-center font-medium md:mx-40 text-sm md:text-2xl space-y-4 my-5">
                         <h1>We combine the best of Artificial Intelligence and Edge Computing to deliver actionable video and image insights to solve real world problems</h1>
                         <h1>Our innovative video analytics platform serves Smart Cities, Retail Automation, Security and Surveillance for both Government and private enterprises. We are based in United States with a research and development center in Hyderabad India</h1>
                     </div>
                 </div>
 
                 <div className="grid grid-cols-2">
-                    <div className="flex flex-col  justify-center space-y-5 px-36">
-                        <h1 className="text-2xl text-center uppercase font-black">
+                    <div className="flex flex-col  justify-center space-y-5 md:px-36 text-center">
+                        <h1 className="text-sm md:text-2xl text-center uppercase font-black">
                             Deliver the most impactful customer experience with Guise AI's  realtime solutions on the edge
                         </h1>
                     </div>
-                    <div className="p-32">
+                    <div className="p-32 hidden md:block">
                         <img src={BG2} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
                     </div>
                 </div>
