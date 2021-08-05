@@ -1,4 +1,4 @@
-import BG1 from '../../assets/svg/signage.png'
+import BG1 from '../../assets/svg/signage.jpg'
 import BG2 from '../../assets/images/8261.jpg'
 import BG3 from '../../assets/images/10477.jpg'
 import { ReactComponent as UndrawListeningSvg } from "../../assets/svg/undraw_Listening.svg";
@@ -58,6 +58,7 @@ export const Solutions = () => {
                     <div className="space-y-3 mt-5  font-semibold ml-8 text-sm sm:text-xl">
                         <li className="">People Count</li>
                         <li className="">Object Detection</li>
+                        <li className="">Demographics</li>
                         <li className="">Dwell Time</li>
                         <li className="">Wait Time</li>
                         <li className="">Apparel Detection</li>

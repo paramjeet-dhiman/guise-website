@@ -10,7 +10,7 @@ const SocialShare = [
 
 export const AppFooter = () => {
     return (
-        <div className="bg-gray-900 text-gray-300 relative bottom-0 w-full sm:text-sm">
+        <div className="bg-gray-900 text-gray-300  w-full sm:text-sm">
             <div className="flex justify-center  md:justify-between items-center mx-20 py-3 text-lg">
 
                 {/* <div className=" space-x-5 hidden md:block "> */}

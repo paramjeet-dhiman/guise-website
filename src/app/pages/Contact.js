@@ -7,7 +7,7 @@ export const Contact = () => {
     }
 
     return (
-        <div className="text-dark-text h-full pt-20"
+        <div className="text-dark-text h-screen pt-20"
             style={{
                 background: `url(${BG1}) no-repeat center center`,
                 backgroundSize: 'cover',
