@@ -81,13 +81,13 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2">
-                    <div className="p-32 hidden md:block">
-                        <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
+                <div className="grid place-content-center">
+                    <div className="p-16 hidden md:block">
+                        <img src={BG1} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full h-96" />
                     </div>
                     <div className="flex flex-col items-center justify-center space-y-5 md:px-32">
                         <h1 className="text-sm md:text-2xl  text-center uppercase font-black">
-                            Realtime decisions require realtime information at a price that's affordable
+                            {/* Realtime decisions require realtime information at a price that's affordable */}
                         </h1>
                     </div>
                 </div>
@@ -112,8 +112,8 @@ export const Home = () => {
                             Deliver the most impactful customer experience with Guise AI's  realtime solutions on the edge
                         </h1>
                     </div>
-                    <div className="p-32 hidden md:block">
-                        <img src={BG2} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-full" />
+                    <div className="p-48 hidden md:block">
+                        <img src={BG2} alt="gGlUMYGEIvjDOOw.jpg" className="rounded-xl" />
                     </div>
                 </div>
             </div>
