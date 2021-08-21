@@ -100,9 +100,9 @@ export const Home = () => {
                     }}
                 >
 
-                    <div className=" flex flex-col justify-center items-center font-medium md:mx-40 text-sm md:text-2xl space-y-4 my-5">
-                        <h1>We combine the best of Artificial Intelligence and Edge Computing to deliver actionable video and image insights to solve real world problems</h1>
-                        <h1>Our innovative video analytics platform serves Smart Cities, Retail Automation, Security and Surveillance for both Government and private enterprises. We are based in United States with a research and development center in Hyderabad India</h1>
+                    <div className=" flex flex-col justify-center items-center font-medium md:mx-40 text-sm md:text-2xl space-y-4 my-5 ">
+                        <h1>Guise AI solves the cost and efficiency problems endemic in AI today. Our continuous learning AI solutions on the edge allow machines to continuously learn and adapt to dynamically changing data in the real world without having to constantly retrain models.</h1>
+                        <h1> Clients and OEMs who require a fast, cost-efficient and secure solution turn to Guise AI to continuously extract patterns and predict from real-time and dynamically changing data to create the greatest impact on end-users. </h1>
                     </div>
                 </div>
 
