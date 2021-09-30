@@ -3,7 +3,7 @@ import { Routes } from './Routes';
 
 export const App = () => {
   return (
-    <div className="bg-black">
+    <div className="antialiased bg-dark-primary text-gray-100 ">
       <BrowserRouter>
         <Routes />
       </BrowserRouter>

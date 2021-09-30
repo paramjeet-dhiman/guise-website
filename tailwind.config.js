@@ -18,7 +18,7 @@ module.exports = {
 
       'dark': {
         'primary': {
-          DEFAULT: '#272727',
+          DEFAULT: '#151719',
           '400': '#222831',
           '800': '#232931',
         },
