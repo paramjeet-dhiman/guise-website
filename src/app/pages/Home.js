@@ -1,8 +1,5 @@
-import BG1 from "../../assets/images/21770.jpg";
 import BG2 from "../../assets/images/15152.jpg";
 import BG3 from "../../assets/images/3400343.jpg";
-import BG4 from "../../assets/images/19366.jpg";
-import BG5 from "../../assets/images/432894.jpg";
 import { useEffect } from "react";
 
 export const Home = () => {
@@ -39,10 +36,7 @@ export const Home = () => {
                     style={{
                         background: `url(${BG2}) no-repeat center center`,
                         backgroundSize: 'cover',
-                        // boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.2)',
                     }}>
-
-
                 </div>
             </div>
         </div>
