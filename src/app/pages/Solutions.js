@@ -143,10 +143,8 @@ export const Solutions = () => {
                 <div>
                     <h1 className=" uppercase font-black text-dark-button text-base sm:text-4xl">Energy Management</h1>
                     <div className="space-y-3 mt-5  font-semibold ml-8 text-sm sm:text-xl">
-                        <li className="">Smart Grid</li>
                         <li className="">Smart Meters</li>
                         <li className="">SCADA</li>
-                        <li className="">Grid Optimization</li>
                         <li className="">Anomaly Detection</li>
                     </div>
                 </div>

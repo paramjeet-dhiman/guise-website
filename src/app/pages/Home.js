@@ -1,5 +1,5 @@
 import BG1 from "../../assets/images/25332.jpg";
-import BG2 from "../../assets/images/15152.png";
+import BG2 from "../../assets/images/1111.jpg";
 import BG3 from "../../assets/images/rm378-08.jpg";
 import { useEffect } from "react";
 
@@ -34,17 +34,24 @@ export const Home = () => {
                 }}>
 
                 <div className=" flex flex-col justify-center  items-center lg:leading-snug lg:tracking-normal  font-black sm:text-base md:text-2xl   lg:font-black md:mx-36 lg:mx-40 text-sm lg:text-4xl space-y-20  text-left  ">
-                    <h1>Guise AI solves the cost and efficiency problems endemic in AI today. Our lifelong learning AI solutions on the edge allow machines to continuously learn and adapt to dynamically changing data in the real world without having to constantly retrain models</h1>
-                    <h1> Clients and OEMs who require an accurate, cost-efficient and secure solution turn to Guise AI to continuously extract patterns and predict from real-time and dynamically changing data to create the greatest impact on end-users</h1>
+                    <h1>Guise AI solves the cost and efficiency problems endemic in AI today. Our AI solutions on the edge allow machines to continuously learn and adapt to dynamically changing data in the real world without having to constantly retrain models.</h1>
+                    <h1> Clients and OEMs who require an accurate, cost-efficient and secure solution turn to Guise AI to continuously extract patterns and predict from real-time and dynamically changing data to create the greatest impact on end-users.</h1>
                 </div>
 
             </div>
 
-            <div className="h-screen flex justify-end items-center "
+            <div className="h-screen flex justify-end items-center realtive"
                 style={{
                     background: `url(${BG2}) no-repeat center center`,
                     backgroundSize: 'cover',
                 }}>
+
+                <div className="">
+                    <h1 className="uppercase font-black  lg:leading-snug lg:tracking-normal  sm:text-base md:text-2xl   lg:font-black md:mx-36 lg:mx-20 text-base lg:text-4xl  text-left mx-20">
+                        Deliver the most dynamic and  <br /> effective  CUSTOMER EXPERIENCE<br />
+                        WITH GUISE AI'S REALTIME SOLUTIONS <br />ON THE EDGE
+                    </h1>
+                </div>
             </div>
         </>
 
