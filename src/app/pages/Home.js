@@ -18,7 +18,7 @@ export const Home = () => {
                     // boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.1)',
                 }}>
                 <div className="flex items-center justify-center">
-                    <h1 className="text-base md:text-2xl sm:text-lg lg:text-5xl lg:tracking-normal  lg:leading-snug font-black uppercase text-center mx-20 lg:mx-36 md:mx-50 sm:mx-20">
+                    <h1 className="text-2xl    sm:text-3xl   md:text-2xl lg:text-5xl lg:tracking-normal  lg:leading-snug font-black uppercase text-left md:text-center mx-10 lg:mx-36 md:mx-50 sm:mx-20">
                         Our AI solutions on the edge deliver accurate insights helping you to make impactful business decisions
                     </h1>
                 </div>
@@ -33,7 +33,7 @@ export const Home = () => {
 
                 }}>
 
-                <div className=" flex flex-col justify-center  items-center lg:leading-snug lg:tracking-normal  font-black sm:text-base md:text-2xl   lg:font-black md:mx-36 lg:mx-40 text-sm lg:text-4xl space-y-20  text-left  ">
+                <div className=" flex flex-col justify-center  items-center lg:leading-snug lg:tracking-normal  font-black text-2xl    sm:text-3xl   md:text-2xl lg:text-4xl  lg:font-black mx-10 md:mx-36 lg:mx-40  space-y-10  md:space-y-20 text-left  ">
                     <h1>Guise AI solves the cost and efficiency problems endemic in AI today. Our AI solutions on the edge allow machines to continuously learn and adapt to dynamically changing data in the real world without having to constantly retrain models.</h1>
                     <h1> Clients and OEMs who require an accurate, cost-efficient and secure solution turn to Guise AI to continuously extract patterns and predict from real-time and dynamically changing data to create the greatest impact on end-users.</h1>
                 </div>
@@ -44,12 +44,13 @@ export const Home = () => {
                 style={{
                     background: `url(${BG2}) no-repeat center center`,
                     backgroundSize: 'cover',
+                    boxShadow: 'inset 0 0 0 2000px rgba(8, 8, 8, 0.4)',
                 }}>
 
                 <div className="">
-                    <h1 className="uppercase font-black  lg:leading-snug lg:tracking-normal  sm:text-base md:text-2xl   lg:font-black md:mx-36 lg:mx-20 text-base lg:text-4xl  text-left mx-20">
-                        Deliver the most dynamic and  <br /> effective  CUSTOMER EXPERIENCE<br />
-                        WITH GUISE AI'S REALTIME SOLUTIONS <br />ON THE EDGE
+                    <h1 className="uppercase lg:leading-snug lg:tracking-normal lg:mx-20 text-left font-black text-2xl  sm:text-3xl  md:text-2xl lg:text-4xl  lg:font-black mx-10 md:mx-36 ">
+                        Deliver the most dynamic and <br /> effective  CUSTOMER EXPERIENCE<br />
+                        WITH GUISE AI'S REALTIME SOLUTIONS <br /> ON THE EDGE
                     </h1>
                 </div>
             </div>

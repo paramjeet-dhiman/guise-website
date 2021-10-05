@@ -10,7 +10,7 @@ const SocialShare = [
 
 export const AppFooter = () => {
     return (
-        <div className="bg-gray-900 text-gray-300  w-full sm:text-sm">
+        <div className="bg-dark-primary text-gray-300  w-full sm:text-sm">
             <div className="flex justify-center  md:justify-between items-center mx-20 py-3 text-lg">
 
                 {/* <div className=" space-x-5 hidden md:block "> */}
@@ -19,7 +19,7 @@ export const AppFooter = () => {
                 {/* </div> */}
 
                 <div className="font-medium text-sm sm:text-base flex">
-                    Copyright &copy; 2021 <span className="hidden md:block">, Guise AI All Rights Reserved</span>
+                    Copyright &copy; 2021 <span className="hidden sm:block">, Guise AI All Rights Reserved</span>
                 </div>
 
                 <div className="hidden md:block">
